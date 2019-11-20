@@ -10,7 +10,7 @@ BEGIN
     case
 /* Уникални, малки числа */
     when (@num between 0 and 19) then
-      case @a when 1 then
+	case @a when 1 then
 		  case @num
 		  when 1 then 'Един'   when 6  then 'Шест'  when 11 then 'Единадесет'    when 16 then 'Шестнадесет'
 		  when 2 then 'Два'    when 7  then 'Седем' when 12 then 'Дванадесет'    when 17 then 'Седемнадесет'
@@ -18,7 +18,7 @@ BEGIN
 		  when 4 then 'Четири' when 9  then 'Девет' when 14 then 'Четиринадесет' when 19 then 'Деветнадесет'
 		  when 5 then 'Пет'    when 10 then 'Десет' when 15 then 'Петнадесет'    when 0 then 'Нула'
 		  END
-      else
+	else
 		  case @num
 		  when 1 then 'Една'   when 6 then 'Шест'   when 11 then 'Единадесет'    when 16 then 'Шестнадесет'
 		  when 2 then 'Две'    when 7 then 'Седем'  when 12 then 'Дванадесет'    when 17 then 'Седемнадесет'
@@ -26,7 +26,7 @@ BEGIN
 		  when 4 then 'Четири' when 9 then 'Девет'  when 14 then 'Четиринадесет' when 19 then 'Деветнадесет'
 		  when 5 then 'Пет'    when 10 then 'Десет' when 15 then 'Петнадесет'    when 0 then 'Нула'
 		  END
-	   end
+	end
       /* Десетици */
     when (@num between 20 and 90) and (@num % 10 = 0) then
       case @num
