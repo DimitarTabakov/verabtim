@@ -12,7 +12,7 @@ case
 			when 1 then 'Едно'	 when 6  then 'Шест'	when 11 then 'Единадесет'	 when 16 then 'Шестнадесет'
 			when 2 then 'Две'	 when 7  then 'Седем'	when 12 then 'Дванадесет'	 when 17 then 'Седемнадесет'
 			when 3 then 'Три'	 when 8  then 'Осем'	when 13 then 'Тринадесет'	 when 18 then 'Осемнадесет'
-			when 4 then 'Четири' when 9  then 'Девет'	when 14 then 'Четиринадесет' when 19 then 'Деветнадесет'
+			when 4 then 'Четири' 	 when 9  then 'Девет'	when 14 then 'Четиринадесет'     when 19 then 'Деветнадесет'
 			when 5 then 'Пет'	 when 10 then 'Десет'	when 15 then 'Петнадесет'	 when 0  then 'Нула'
 		end
     /* Десетици */
@@ -31,7 +31,7 @@ case
 			when 100 then 'Сто' 		 when 600 then 'Шестстотин'
 			when 200 then 'Двеста' 		 when 700 then 'Седемстотин'	
 			when 300 then 'Триста' 		 when 800 then 'Осемстотин'
-			when 400 then 'Четиристотин' when 900 then 'Деветстотин'
+			when 400 then 'Четиристотин'     when 900 then 'Деветстотин'
 			when 500 then 'Петстотин'
 		end
     /* Стотици, не кръгли */
